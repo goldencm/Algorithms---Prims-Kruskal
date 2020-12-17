@@ -67,6 +67,7 @@ System.out.println("Prim Total Weight: " + totalWeight(mst.edges()) + "\t\tTime:
 	PrintStream ps =
 		new PrintStream (new File(g.vertices().size() + "."+ ext));
 	ps.println("Time: " + duration);
+	ps.println("Total Weight: " + totalWeight(g.edges()));
 	for (int i =0; i < va.length; i++)
 	    ps.print(va[i] + " ");
 	ps.println();
